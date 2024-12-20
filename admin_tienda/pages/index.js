@@ -1,4 +1,5 @@
 import { useSession, signIn, signOut } from "next-auth/react"
+import Nav from "../components/Nav"
 
 export default function Home() {
 
@@ -15,9 +16,8 @@ export default function Home() {
 
     return (
       <div className="bg-blue-900 min-h-screen">
-        <div className="text-center w-full">
-          <button onClickCapture={signOut} className="bg-white p-2 px-4 rounded-lg">Cerrar Sesión</button>
+          <Nav />
+          <div className="bg-white flex-grow mt-2 mr-2  mb-2 rounded-lg p-4 "> iniciado sesión como: {session.user.name}</div>
         </div>
-      </div>
     );
 }
