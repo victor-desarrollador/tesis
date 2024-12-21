@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Products() {
     return (
         <Layout>
-            <Link href="/products/new">Nuevo producto</Link>
+            <Link className="bg-blue-900 text-white rounded-md py-1 px-2" href="/products/new">Agregar nuevo producto</Link>
         </Layout>
     );
 }
