@@ -5,8 +5,14 @@
 
 @theme{
   --font-poppins: 'Poppins', sans-serif;
-  --color-primary: #1E3A8A;
-  --color-secondary: #FBBF24;
+  --color-blanco-perla: #F5F5F5;
+  --color-gris-claro: #E0E0E0;
+  --color-negro-suave: #333333;
+  --color-beige-grisaceo: #D4CCC0;
+  --color-azul-medianoche: #2C3E50;
+  --color-verde-salvia: #8A9B6E;
+  --color-dorado-champagne: #C4B69D;
+  --color-borgona: #6D2A3C;
 }
 
 @theme inline {
